@@ -11,6 +11,8 @@ In order to ssh into a course specific account on ieng6, you need to go to https
 Once you have reset the password and have the course specific account, enter the following command replacing the cse15lwi22axt with your own course id:
 `ssh cs15lwi22axt@ieng6.ucsd.edu`
 Enter the password you set previously. If it gives you a yes/no prompt, type yes and enter. It should look like this.
+
+
 ![Image](./labreport1images/img3.png)
 
 
@@ -25,8 +27,8 @@ You can try different commands on this ssh window such as `cd` (current director
 Create a file so that you can copy it over to the ieng6 computer with ssh. On the client side, enter the following into the terminal where <fileName> should be the file you just made. 
 `scp <fileName> cs15lwi22axt@ieng6.ucsd.edu:~/`
 Make sure that you are in the same directory as the file you made in the terminal, otherwise it will not work. It will prompt you to enter a password, and once you have done this, you can ssh back into the remote server and see that your file is there in the remote server’s home directory. 
-![Image](./labreport1images/img5.png)
 
+![Image](./labreport1images/img5.png)
 
 
 ## Setting an SSH Key
