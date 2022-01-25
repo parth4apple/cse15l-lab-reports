@@ -1,12 +1,12 @@
 ## Installing VScode
 
-If you already have Visual Studio Code installed on your computer, you can skip this step. Otherwise, you can download the version of Visual Studio Code that is appropriate for your operating system from https://code.visualstudio.com/.
+If you already have Visual Studio Code installed on your computer, you can skip this step. Otherwise, you can download the version of Visual Studio Code that is appropriate for your operating system from [visual studio code](https://code.visualstudio.com/).
 Once you have Visual Studio Code installed, open a new window and drag in a folder that you want to use for this lab; then, click new terminal (command +) so you can do the ssh. This setup should look something like this.
 ![Image](./labreport1images/img1.png)
 
 ## Remotely Connecting
 
-In order to ssh into a course specific account on ieng6, you need to go to https://sdacs.ucsd.edu/~icc/index.php. Here you will find your course specific account number and can set a password for it by clicking on “reset password”.
+In order to ssh into a course specific account on ieng6, you need to go to [this link](https://sdacs.ucsd.edu/~icc/index.php). Here you will find your course specific account number and can set a password for it by clicking on “reset password”.
 ![Image](./labreport1images/img2.png)
 Once you have reset the password and have the course specific account, enter the following command replacing the cse15lwi22axt with your own course id:
 `ssh cs15lwi22axt@ieng6.ucsd.edu`
