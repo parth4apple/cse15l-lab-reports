@@ -26,7 +26,7 @@ The symptom of this failure inducing input is that the program interprets markdo
 
 In markdown, image tags behave similarly to link tags. You have `[]()` in both of them, the difference is, image tags have a `!` in front: `![]()`. The bug is that our program is just looking for brackets and parenthesis and ignoring `!` in front of these brackets. This bug leads to the symptom of image references showing up in our link array that we are printing out, when they should not be there.
 
-## Code Change #3: Corner Case of link at start of file
+## Code Change #3: Multiple parenthesis inside link
 Git diff for this change:
 ![gitDiff3](./labreport2assets/gitdiff3.png)
 
