@@ -1,5 +1,5 @@
 
-## Code Change #1: 1 link file does not end with a link
+## Code Change #1: one-link file does not end with a link
 Git diff for this change:
 ![gitDiff1](./labreport2assets/gitdiff1.png)
 
