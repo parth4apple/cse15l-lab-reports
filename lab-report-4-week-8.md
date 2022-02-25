@@ -50,5 +50,5 @@ With my implementation, it would be a minor change to account for backticks. I j
 My implementation works for the snippet 2, and should work for other cases where there are nested parenthesis or nested brackets as well, since I have a valid parenthesis checker.
 
 ### Snippet 3
-My implementation would only require a small change (<10 lines) in order for it to work with line breaks like the ones present in snippet 3. I would need to check that currentIndex is not out of bounds and if it is, to terminate the loop. Also, I would need to add a `\n` checker to make sure that the links do not contain that character, and if they do their preceding bracket region also contains it before adding it to the link list. This should only take a few if statements for both tasks.
+My implementation would only require a small change (<10 lines) in order for it to work with line breaks like the ones present in snippet 3. I would need to check that currentIndex is not out of bounds and if it is, to terminate the loop. Also, I would need to add a `\n` checker to make sure that links containing that character are not added to the list. This should only take a few if statements for both tasks.
 
