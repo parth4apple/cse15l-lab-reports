@@ -42,7 +42,7 @@ The implementation I reviewed's error from junit:
 ![their error snippet 3](./labreport4assets/theirerror3.png)
 
 
-## Analysis on whether code changed 
+## Analysis on fixing my implementation
 ### Snippet 1
 With my implementation, it would be a minor change to account for backticks. I just need to create something that keeps track of the next backtick and if there is another one, to ignore the text between the two when looking for links. This can be done with a simple while loop similar to the one that checks for valid parenthesis. 
 
