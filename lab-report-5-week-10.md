@@ -3,7 +3,8 @@
 ![Git Diff](./labreport5assets/gitdiff.png)
 
 ## Test #1: `567.md`
-In order to find this test with different results, I put `echo $file` into my `script.sh` so that I know what file each result corresponds to before generating my `results.txt`. I used git diff to see there is a discrepancy on line 1040 between the implementations. I used vim with `:set number` (to see the line numbers) to see that the difference of output is in `test-files/567.md`
+In order to find this test with different results, I put `echo $file` into my `script.sh` so that I know what file each result corresponds to before generating my `results.txt`. I used `git diff, I ran diff cse15l-markdown-parse/results.txt markdown-parse/results.txt` to see there is a discrepancy on line 1040 between the implementations. I used vim with `:set number` (to see the line numbers) to see that the difference of output is in `test-files/567.md`.
+
 
 `567.md` contents:
 
@@ -19,7 +20,7 @@ For the provided implementation, the problem is that it does not recognize links
 
 
 ## Test #2: `577.md`
-In order to find this test with different results, I put `echo $file` into my `script.sh` so that I know what file each result corresponds to before generating my `results.txt`. I used git diff to see there is a discrepancy on line 1062 between the implementations. I used vim with `:set number` (to see the line numbers) to see that the difference of output is in `test-files/577.md`
+In order to find this test with different results, I put `echo $file` into my `script.sh` so that I know what file each result corresponds to before generating my `results.txt`. I used `git diff, I ran diff cse15l-markdown-parse/results.txt markdown-parse/results.txt` to see there is a discrepancy on line 1062 between the implementations. I used vim with `:set number` (to see the line numbers) to see that the difference of output is in `test-files/577.md`.
 
 `577.md` contents:
 
